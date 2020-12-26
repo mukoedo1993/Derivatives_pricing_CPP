@@ -18,4 +18,4 @@ virtual functions benefits:
 
 
 .........................
-case 1: gives us a way to calculate put and call options price and export the results simultaneously. 
+case 1: gives us a way to calculate put and call options' price and export the results simultaneously. 

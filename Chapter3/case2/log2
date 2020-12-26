@@ -1,0 +1,48 @@
+g++ PayOff2.cpp Random1.cpp SimpleMC2.cpp SimpleMCMain4_.cpp PayOff2.h Random1.h SimpleMC2.h
+(base) zcw@mukoedo1993:~/finance/C++_chap3$ ./a.out
+
+Enter expiry
+12
+
+Enter strike
+100
+
+Enter spot
+50
+
+Enter Vol
+0.13
+
+r
+0.14
+
+Number of paths
+100000
+ENter 0 for call, otherwise put 1
+
+the price is 0.0698623
+1.2
+(base) zcw@mukoedo1993:~/finance/C++_chap3$ # then, try again.
+(base) zcw@mukoedo1993:~/finance/C++_chap3$ ./a.out
+
+Enter expiry
+12
+
+Enter strike
+100
+
+Enter spot
+200
+
+Enter Vol
+0.13
+
+r
+0.14
+
+Number of paths
+100000
+ENter 0 for call, otherwise put 0
+
+the price is 180.944
+3.2

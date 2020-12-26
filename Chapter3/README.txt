@@ -11,3 +11,5 @@ increased as the object now contains a lot of extra data.
 
 
 virtual functions benefits: 
+1:  they are syntactically a lot simpler.
+2:  we get extra functionality. 

@@ -1,0 +1,34 @@
+(base) zcw@mukoedo1993:~/finance/C++chap4$ g++ PayOff3.cpp PayOff3.h Random1.cpp Random1.h SimpleMC4.cpp SimpleMC4.h Vanilla2.cpp Vanilla2.h VanillaMain2.cpp
+(base) zcw@mukoedo1993:~/finance/C++chap4$ 12
+12: command not found
+(base) zcw@mukoedo1993:~/finance/C++chap4$ ./a.out
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+200
+
+Enter vol
+0.13
+
+r
+0.04
+
+Number of paths
+10000000
+
+the call price is 
+138.184
+
+the call price is 
+138.223
+
+the put price is 0.0700681
+
+the put price is 0.0707056
+(base) zcw@mukoedo1993:~/finance/C++chap4$ 
+

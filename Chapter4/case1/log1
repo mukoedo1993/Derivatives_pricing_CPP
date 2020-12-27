@@ -1,0 +1,26 @@
+(base) zcw@mukoedo1993:~/finance/C++chap4$ g++ DoubleDigital.cpp DoubleDigital.h PayOff2.cpp PayOff2.h Random1.cpp Random1.h SimpleMC3.cpp SimpleMC3.h Vanilla1.cpp Vanilla1.h VanillaMain1.cpp
+(base) zcw@mukoedo1993:~/finance/C++chap4$ ./a.out
+
+Enter expiry
+12
+
+Enter low barrier
+100
+
+Enter up barrier
+200
+
+Enter spot
+100
+
+Enter vol
+0.13
+
+r
+0.14
+
+Number of paths
+100000
+
+the price is 
+0.101548

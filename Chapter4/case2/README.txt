@@ -7,6 +7,6 @@ a copy of itself.
 Derived-to-base conversion(pointer)
 
 
-I add the choice to make:
+I add two move control members. So, now we have big five.
 We could use the move constructor and move assignment operator now.
-Also, I replaced raw pointers with shared_ptrs to follow the new era.
+Also, I replaced raw pointers with shared_ptrs to follow the new post-C++11 era.

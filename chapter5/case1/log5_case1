@@ -1,0 +1,37 @@
+The record on the terminal:
+(base) zcw@mukoedo1993:~/finance/C++chap5/case1$ make
+g++ -c MCstatistics.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c Random1.cpp
+g++ -c SimpleMC7.cpp
+g++ -c Vanilla3.cpp
+g++ -c StatsMain1.cpp
+g++ MCstatistics.o Parameters.o PayOff3.o PayOffBridge.o Random1.o SimpleMC7.o Vanilla3.o StatsMain1.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap5/case1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+400
+
+Enter vol
+0.13
+
+r
+0.14
+
+Number of paths
+100000000
+
+For the call price the results are 
+381.353 
+0.13
+(base) zcw@mukoedo1993:~/finance/C++chap5/case1$ make clean
+rm *.o output
+(base) zcw@mukoedo1993:~/finance/C++chap5/case1$ 

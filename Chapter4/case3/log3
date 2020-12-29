@@ -1,0 +1,68 @@
+(base) zcw@mukoedo1993:~/finance/C++chap4$ make
+g++ -c VanillaMain3.cpp
+g++ -o output PayOff3.o PayOffBridge.o Random1.o SimpleMC5.o Vanilla3.o VanillaMain3.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap4$ ./output
+
+Enter expiry
+12
+
+Strike
+0.13
+
+Enter spot
+0.14
+
+Enter vol
+0.01
+
+r
+0.02
+
+Number of paths
+100000
+
+the call price is 0.0377121
+
+the call price is 0.0377362
+
+the put price is 0
+
+the call price is 0.0377499
+
+the call price is 0.0377442
+
+the call price is 0.0377572
+1.2
+(base) zcw@mukoedo1993:~/finance/C++chap4$ ./output
+
+Enter expiry
+12
+
+Strike
+100 
+
+Enter spot
+200
+
+Enter vol
+0.13
+
+r
+0.04
+
+Number of paths
+100000
+
+the call price is 137.778
+
+the call price is 138.087
+
+the put price is 0.0745617
+
+the call price is 138.508
+
+the call price is 138.259
+
+the call price is 138.592
+1.2
+(base) zcw@mukoedo1993:~/finance/C++chap4$ 

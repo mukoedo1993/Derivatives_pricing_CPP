@@ -8,5 +8,11 @@ As we are trying to develop an object-oriented routine, we make the statistics g
 will take in a statistics gatherer object, store the results in it and the statistics gatherer will then output the statistics as
 required. This technique of using an auxiliary class to decide how part of an algorithm is implemented is sometimes called the strategy pattern.
 
+What should the routine do? It must have two principal methods. The first should take in data for each path. The second must output the desired
+statistics.
+Since we do not wish to specify what sort of statistics are being gathered in advance, we proceed via an abstract base class using virtual methods,
+just aw we did for the PayOff and Parameters classes. However, as most of the time we will not need to copy these objects we do not bother with the
+bridge but work with the base class by reference.
+
 
 

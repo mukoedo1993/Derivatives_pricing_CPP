@@ -1,0 +1,9 @@
+One alternative method is therefore to use a convergence table. Rather than returning statistics for the
+entire simulation, we instead return them for every power of two to get an idea of how the numbers are varying. We
+could just write a class directly to return such a table for the mean, but since we might want to do this for any 
+statistic, we do it in a reusable fashion. 
+
+Our class must contain a statistics gatherer in order to decide for which statistics to create a convergence table. On
+the other hand, it must implement the same interface as all the other statistics gatherers so we can plug it into the same
+simulations. We therefore define a class ConvergenceTable which is inherited from Statistics,C amd has a wrapper of an StatisticsMC object 
+as a data member.

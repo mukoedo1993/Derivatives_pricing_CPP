@@ -1,0 +1,47 @@
+(base) zcw@mukoedo1993:~/finance/C++chap5/case2$ make
+g++ -c Random1.cpp
+g++ -c SimpleMC7.cpp
+g++ -c StatsMain1.cpp
+g++ MCStatistics.o Parameters.o PayOff3.o PayOffBridge.o Random1.o SimpleMC7.o Vanilla3.o StatsMain1.o ConvergenceTable.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap5/case2$ ./output
+
+Enter expiry
+100
+
+Strike
+10
+
+Enter spot
+1000
+
+Enter vol
+0.001
+
+r
+0.4
+
+Number of paths
+100000
+
+For the call price the results are 
+1048.14 2 
+1004.74 4 
+1151.21 8 
+971.605 16 
+1010.12 32 
+1019.22 64 
+1006.55 128 
+993.276 256 
+990.344 512 
+993.676 1024 
+988.298 2048 
+990.066 4096 
+995.905 8192 
+998.215 16384 
+998.056 32768 
+997.211 65536 
+997.98 100000 
+1.2
+(base) zcw@mukoedo1993:~/finance/C++chap5/case2$ make clean
+rm *.o output
+(base) zcw@mukoedo1993:~/finance/C++chap5/case2$ 

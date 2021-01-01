@@ -1,0 +1,60 @@
+(base) zcw@mukoedo1993:~/finance/C++chap6/case1$ make
+g++ -c AntiThetic.cpp
+g++ -c Arrays.cpp
+g++ -c ConvergenceTable.cpp
+g++ -c MCStatistics.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c ParkMiller.cpp 
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c Random2.cpp
+g++ -c SimpleMC8.cpp
+g++ -c Vanilla3.cpp
+g++ -c RandomMain3.cpp
+g++ AntiThetic.o Arrays.o ConvergenceTable.o MCStatistics.o Normals.o Parameters.o ParkMiller.o PayOff3.o PayOffBridge.o Random2.o SimpleMC8.o Vanilla3.o RandomMain3.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap6/case1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+200
+
+Enter vol
+0.03
+
+r
+0.04
+
+Number of paths
+10000
+
+For the call price the results are 
+1084.22 2 
+614.245 4 
+363.446 8 
+248.951 16 
+196.329 32 
+168.193 64 
+152.415 128 
+149.802 256 
+145.208 512 
+140.847 1024 
+138.093 2048 
+139.558 4096 
+139.578 8192 
+139.323 10000 
+1.2
+(base) zcw@mukoedo1993:~/finance/C++chap6/case1$ 
+
+.......................................
+COMMENTS:
+for files involved with the Wrapper class, I replaced the unique_ptr with 
+built-in pointer. It is obvious that the Wrapper class has played an important role
+in the pre-C++11 era. But I kept the usage in other files.
+Unique_ptr with make_unique helped us to get rid of the risk of memory leak, according to
+the More Effective C++. 

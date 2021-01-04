@@ -35,3 +35,16 @@ the vector.
 
 .......................................................................................................
 Drift occurs as individual securities in your portfolio appreciate or depreciate in value and vear off of their original allocations over time. 
+
+
+
+
+.......................................................................................................
+
+Key Points:
+In this chapter, we saw how we can put the ideas developed in the previous chapters together to build a pricer for exotic options.
+
+1: An important part of the design process is identifying the necessary components and specifying how they talk to each other.
+2: The template pattern involves deferring the implementation of an important part of an algorithm to an inherited class.
+3: If an option class knows nothing that is not specified in ther term-sheet then it is much easier to reuse.
+4: We can reuse the PayOff class to simplify the coding of our more complicated path-dependent derivatives.

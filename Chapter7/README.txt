@@ -32,3 +32,6 @@ the vector.
 (vi): The cash-flows are discounted appropriately and summed, and the total value is passed into the statistics gatherer.
 
 (vii): After all the looping is done, the final results are obtained from the statistics gatherer.
+
+.......................................................................................................
+Drift occurs as individual securities in your portfolio appreciate or depreciate in value and vear off of their original allocations over time. 

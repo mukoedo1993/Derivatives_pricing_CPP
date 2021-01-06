@@ -1,1 +1,3 @@
-The payoff of a forward is exactly euro price minus the BS formula Euro price.
+The payoff for PayOffForward:
+The class is straightforward and the only difference from the class defined for the call is
+that we take spot minus strike, instead of the call pay-off.

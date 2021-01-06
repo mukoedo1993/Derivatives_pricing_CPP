@@ -26,3 +26,7 @@ The only change I made is to use the list-initializer for vector in StatisticsMC
 
 
 3: https://en.wikipedia.org/wiki/Trinomial_tree
+
+
+4: Options, Futures, and other derivatives(9th ed.)(authoer: John C.Hull)
+Page 467

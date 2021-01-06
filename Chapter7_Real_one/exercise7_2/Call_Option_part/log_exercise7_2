@@ -32,41 +32,34 @@ ENter vol
 0.004
 
 Enter barrier: 
-150
+201
 
 Enter Rebate: 
-10
+20
 
 r
-0.002
+0.0005
 
 d
-0.001
+0.0006
 Number of dates
 3
 
 Number of paths
-100
-Segmentation fault (core dumped)
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ make clean
-rm *.o output
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ make
-g++ -c AntiThetic.cpp
-g++ -c Arrays.cpp
-g++ -c ConvergenceTable.cpp
-g++ -c ExoticBSEngine.cpp
-g++    -c -o ExoticEngine.o ExoticEngine.cpp
-g++ -c MCStatistics.cpp
-g++ -c Normals.cpp
-g++ -c Parameters.cpp
-g++ -c ParkMiller.cpp 
-g++ -c PathDependent.cpp
-g++ -c PathDependentKnockOut.cpp
-g++ -c PayOff3.cpp
-g++ -c PayOffBridge.cpp
-g++ -c Random2.cpp
-g++ -c EquityFXMain_ex_7_2.cpp
-g++ AntiThetic.o Arrays.o ConvergenceTable.o ExoticBSEngine.o ExoticEngine.o MCStatistics.o Normals.o Parameters.o ParkMiller.o PathDependent.o PathDependentKnockOut.o PayOff3.o PayOffBridge.o Random2.o EquityFXMain_ex_7_2.o -o output
+1000
+
+For the Asian call price the results are
+56.0373 2 
+67.5573 4 
+68.2455 8 
+73.3912 16 
+79.2925 32 
+82.0052 64 
+84.3554 128 
+87.274 256 
+87.8674 512 
+88.1209 1000 
+1.3
 (base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ ./output
 
 Enter expiry
@@ -76,231 +69,58 @@ Strike
 100
 
 Enter spot
-50
+200
 
 ENter vol
 0.004
 
 Enter barrier: 
-20
-
-Enter Rebate: 
-10
-
-r
-0.005
-
-d
-0.001
-Number of dates
-3
-
-Number of paths
-100
-
-For the Asian call price the results are
-0 2 
-0 4 
-0 8 
-0 16 
-0 32 
-0 64 
-0 100 
-1.2 
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ ./output
-
-Enter expiry
-12
-
-Strike
-100
-
-Enter spot
-50
-
-ENter vol
-0.005
-
-Enter barrier: 
-40
+201
 
 Enter Rebate: 
 20
 
 r
-0.003
+0.0005
 
 d
-0.001
-Number of dates
-3
-
-Number of paths
-1000
-
-For the Asian call price the results are
-0 2 
-0 4 
-0 8 
-0 16 
-0 32 
-0 64 
-0 128 
-0 256 
-0 512 
-0 1000 
-1.2
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ ./output
-
-Enter expiry
-12
-
-Strike
-100
-
-Enter spot
-200
-
-ENter vol
-0.04
-
-Enter barrier: 
-150
-
-Enter Rebate: 
-50
-
-r
-0.03
-
-d
-0.01
-Number of dates
-3
-
-Number of paths
-1000
-
-For the Asian call price the results are
-0 2 
-0 4 
-0 8 
-0 16 
-0 32 
-0 64 
-0 128 
-0 256 
-0 512 
-0 1000 
-1.2
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ make clean
-rm *.o output
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ make
-g++ -c AntiThetic.cpp
-g++ -c Arrays.cpp
-g++ -c ConvergenceTable.cpp
-g++ -c ExoticBSEngine.cpp
-g++    -c -o ExoticEngine.o ExoticEngine.cpp
-g++ -c MCStatistics.cpp
-g++ -c Normals.cpp
-g++ -c Parameters.cpp
-g++ -c ParkMiller.cpp 
-g++ -c PathDependent.cpp
-g++ -c PathDependentKnockOut.cpp
-g++ -c PayOff3.cpp
-g++ -c PayOffBridge.cpp
-g++ -c Random2.cpp
-g++ -c EquityFXMain_ex_7_2.cpp
-g++ AntiThetic.o Arrays.o ConvergenceTable.o ExoticBSEngine.o ExoticEngine.o MCStatistics.o Normals.o Parameters.o ParkMiller.o PathDependent.o PathDependentKnockOut.o PayOff3.o PayOffBridge.o Random2.o EquityFXMain_ex_7_2.o -o output
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ ./output
-
-Enter expiry
-12
-
-Strike
-100
-
-Enter spot
-200
-
-ENter vol
-0.03
-
-Enter barrier: 
-150
-
-Enter Rebate: 
-20
-
-r
-0.02
-
-d
-0.005
-Number of dates
-3
-
-Number of paths
-1000
-
-For the Asian call price the results are
-18.4623 2 
-18.4623 4 
-18.4623 8 
-18.4623 16 
-18.4623 32 
-18.4623 64 
-18.4623 128 
-18.4623 256 
-18.4623 512 
-18.4623 1000 
-1.2
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ ./output
-
-Enter expiry
-12
-
-Strike
-100
-
-Enter spot
-60
-
-ENter vol
-0.03
-
-Enter barrier: 
-400
-
-Enter Rebate: 
-23
-
-r
-0.3
-
-d
-0.2
+0.0006
 Number of dates
 4
 
 Number of paths
-10000
+1000
 
 For the Asian call price the results are
-42.4701 2 
-41.3813 4 
-40.8777 8 
-40.7129 16 
-40.511 32 
-40.4538 64 
-40.4039 128 
-40.3255 256 
-40.3156 512 
-40.3274 1024 
-40.3364 2048 
-40.3328 4096 
-40.3401 8192 
-40.3347 10000 
+56.4856 2 
+67.4651 4 
+65.8545 8 
+84.5755 16 
+94.7484 32 
+98.5933 64 
+96.5262 128 
+99.1042 256 
+101.362 512 
+100.325 1000 
 1.2
-(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ make clean
-rm *.o output
+(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap7$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+200
+
+ENter vol
+0.00005
+
+Enter barrier: 
+199
+terminate called after throwing an instance of 'std::invalid_argument'
+  what():  It is meaningless as the option will expire immedieately at the time of trade!
+
+Aborted (core dumped)
+(base) zcw@mukoedo1993:~/finance/C++chap7/exercise7_2_chap

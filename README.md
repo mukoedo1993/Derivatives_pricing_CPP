@@ -20,4 +20,9 @@ The only change I made is to use the list-initializer for vector in StatisticsMC
 
 # References:
 1:Monte Carlo Methods in Financial Engineering, Page 189.(Author: Paul Glasserman)
+
+
 2:~ Chap. 4.1 Control Variates
+
+
+3: https://en.wikipedia.org/wiki/Trinomial_tree

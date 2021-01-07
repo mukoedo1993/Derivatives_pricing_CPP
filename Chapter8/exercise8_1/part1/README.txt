@@ -1,1 +1,4 @@
 See two new Barrier files for details.
+
+Q: Find a class that does barrier options in the same TreeProduct class hierarchy. Try it out. How stable is the price? 
+How might you improve the stability?

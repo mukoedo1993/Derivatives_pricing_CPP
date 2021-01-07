@@ -1,0 +1,242 @@
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make
+g++ -c Arrays.cpp
+g++ -c BinomialTree.cpp
+g++ -c BlackScholesFormulas.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c PayOffForward.cpp
+g++ -c TreeAmerican.cpp
+g++ -c TreeEuropean.cpp
+g++ -c TreeProducts.cpp
+make: *** No rule to make target 'TreeMain.cpp', needed by 'TreeMain.o'.  Stop.
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make clean
+rm *.o output
+rm: cannot remove 'output': No such file or directory
+make: *** [Makefile:44: clean] Error 1
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make
+g++ -c Arrays.cpp
+g++ -c BinomialTree.cpp
+g++ -c BlackScholesFormulas.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c PayOffForward.cpp
+g++ -c TreeAmerican.cpp
+g++ -c TreeEuropean.cpp
+g++ -c TreeBarrier.cpp
+g++ -c TreeProducts.cpp
+make: *** No rule to make target 'TreeMain1.cpp', needed by 'TreeMain1.o'.  Stop.
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make clean
+rm *.o output
+rm: cannot remove 'output': No such file or directory
+make: *** [Makefile:44: clean] Error 1
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make
+g++ -c Arrays.cpp
+g++ -c BinomialTree.cpp
+g++ -c BlackScholesFormulas.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c PayOffForward.cpp
+g++ -c TreeAmerican.cpp
+g++ -c TreeEuropean.cpp
+g++ -c TreeBarrier.cpp
+g++ -c TreeProducts.cpp
+g++ -c TreeMain1.cpp
+g++ Arrays.o BinomialTree.o BlackScholesFormulas.o Normals.o Parameters.o PayOff3.o PayOffBridge.o PayOffForward.o TreeAmerican.o TreeEuropean.o TreeBarrier.o TreeProducts.o TreeMain1.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Spot
+20
+
+Enter vol
+0.03
+
+r
+0.5
+
+d
+0.005
+
+Number of steps
+4
+
+Value of Barrier: 
+40
+euro price17.1615
+amer price17.1615
+barrier price: 0.125555
+BS formula euro price18.5874
+forward price by tree17.146
+forward price 18.5874
+euro new price17.8565amer new price17.8565barrier new price0.177284
+euro av price17.509amer av price17.509
+av forward17.4974
+1.2
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Spot
+50
+
+Enter vol
+0.03
+
+r
+0.5
+
+d
+0.05
+
+Number of steps
+1200
+
+Value of Barrier: 
+20
+euro price27.1927
+amer price32.2711
+barrier price: 0.990074
+BS formula euro price27.1927
+forward price by tree27.1927
+forward price 27.1927
+euro new price27.1927amer new price32.2711barrier new price0.990083
+euro av price27.1927amer av price32.2711
+av forward27.1927
+1.2
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ 
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make
+g++ -c Arrays.cpp
+g++ -c BinomialTree.cpp
+g++ -c BlackScholesFormulas.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c PayOffForward.cpp
+g++ -c TreeAmerican.cpp
+g++ -c TreeEuropean.cpp
+g++ -c TreeProducts.cpp
+make: *** No rule to make target 'TreeMain.cpp', needed by 'TreeMain.o'.  Stop.
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make clean
+rm *.o output
+rm: cannot remove 'output': No such file or directory
+make: *** [Makefile:44: clean] Error 1
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make
+g++ -c Arrays.cpp
+g++ -c BinomialTree.cpp
+g++ -c BlackScholesFormulas.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c PayOffForward.cpp
+g++ -c TreeAmerican.cpp
+g++ -c TreeEuropean.cpp
+g++ -c TreeBarrier.cpp
+g++ -c TreeProducts.cpp
+make: *** No rule to make target 'TreeMain1.cpp', needed by 'TreeMain1.o'.  Stop.
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make clean
+rm *.o output
+rm: cannot remove 'output': No such file or directory
+make: *** [Makefile:44: clean] Error 1
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ make
+g++ -c Arrays.cpp
+g++ -c BinomialTree.cpp
+g++ -c BlackScholesFormulas.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c PayOffForward.cpp
+g++ -c TreeAmerican.cpp
+g++ -c TreeEuropean.cpp
+g++ -c TreeBarrier.cpp
+g++ -c TreeProducts.cpp
+g++ -c TreeMain1.cpp
+g++ Arrays.o BinomialTree.o BlackScholesFormulas.o Normals.o Parameters.o PayOff3.o PayOffBridge.o PayOffForward.o TreeAmerican.o TreeEuropean.o TreeBarrier.o TreeProducts.o TreeMain1.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Spot
+20
+
+Enter vol
+0.03
+
+r
+0.5
+
+d
+0.005
+
+Number of steps
+4
+
+Value of Barrier: 
+40
+euro price17.1615
+amer price17.1615
+barrier price: 0.125555
+BS formula euro price18.5874
+forward price by tree17.146
+forward price 18.5874
+euro new price17.8565amer new price17.8565barrier new price0.177284
+euro av price17.509amer av price17.509
+av forward17.4974
+1.2
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Spot
+50
+
+Enter vol
+0.03
+
+r
+0.5
+
+d
+0.05
+
+Number of steps
+1200
+
+Value of Barrier: 
+20
+euro price27.1927
+amer price32.2711
+barrier price: 0.990074
+BS formula euro price27.1927
+forward price by tree27.1927
+forward price 27.1927
+euro new price27.1927amer new price32.2711barrier new price0.990083
+euro av price27.1927amer av price32.2711
+av forward27.1927
+1.2
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_1_part1$ 

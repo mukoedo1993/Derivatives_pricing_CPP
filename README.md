@@ -14,10 +14,6 @@ built-in pointers.
 The only change I made is to use the list-initializer for vector in StatisticsMC and use STL random number generator in Random1.h here.
 
 
-# Please see Chpater_7_real_one rather than the directory of Chapter_7. 
-
-
-
 # References:
 1:Monte Carlo Methods in Financial Engineering, Page 189.(Author: Paul Glasserman)
 

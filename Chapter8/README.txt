@@ -1,1 +1,3 @@
-
+It uses a model which is slightly different from ordinary binary tree...
+Basically, it holds on a assumption that as soon as the mean and variance are fixed, we should be able to calculate the same price.
+Similar for Trinomial tree in exercise 8_3.

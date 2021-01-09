@@ -1,0 +1,91 @@
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_4$ make clean
+rm *.o output
+rm: cannot remove '*.o': No such file or directory
+rm: cannot remove 'output': No such file or directory
+make: *** [Makefile:44: clean] Error 1
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_4$ make
+g++ -c Arrays.cpp
+g++ -c BinomialTree.cpp
+g++ -c BlackScholesFormulas.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c PayOffForward.cpp
+g++ -c TreeAmerican.cpp
+g++ -c TreeEuropean.cpp
+g++ -c TreeBarrier.cpp
+g++ -c TreeProducts.cpp
+g++ -c TreeMain1.cpp
+g++ Arrays.o BinomialTree.o BlackScholesFormulas.o Normals.o Parameters.o PayOff3.o PayOffBridge.o PayOffForward.o TreeAmerican.o TreeEuropean.o TreeBarrier.o TreeProducts.o TreeMain1.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_4$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Spot
+200
+
+Enter vol
+0.03
+
+r
+0.02
+
+d
+0.4
+
+Number of steps
+1000
+
+Value of Barrier: 
+20
+euro price0
+amer price64.8868
+barrier price: 0.99952
+BS formula euro price7.79836e-305
+forward price by tree-77.0168
+forward price -77.0168
+euro new price0amer new price64.9026barrier new price0.999521
+euro av price0amer av price64.8947
+av forward-77.0168
+1.3
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_4$ ./output
+
+Enter expiry
+100
+
+Strike
+12
+
+Spot
+20
+
+Enter vol
+0.03
+
+r
+0.4
+
+d
+0.1
+
+Number of steps
+1000
+
+Value of Barrier: 
+10000
+euro price0.000907998
+amer price5487.14
+barrier price: 0.175523
+BS formula euro price0.000907999
+forward price by tree0.000907998
+forward price 0.000907999
+euro new price0.000907998amer new price5487.18barrier new price0.175402
+euro av price0.000907998amer av price5487.16
+av forward0.000907998
+1.4
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_4$ 

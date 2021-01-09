@@ -1,0 +1,47 @@
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_3$ make
+g++ -c Arrays.cpp
+g++ -c TrinomialTree.cpp
+g++ -c BlackScholesFormulas.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c PayOffForward.cpp
+g++ -c TreeAmerican.cpp
+g++ -c TreeEuropean.cpp
+g++ -c TreeProducts.cpp
+g++ -c TreeMain2.cpp
+g++ Arrays.o TrinomialTree.o BlackScholesFormulas.o Normals.o Parameters.o PayOff3.o PayOffBridge.o PayOffForward.o TreeAmerican.o TreeEuropean.o TreeProducts.o TreeMain2.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_3$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Spot
+80
+
+Enter vol
+0.03
+
+r
+0.4
+
+d
+0.1
+
+Number of steps
+1000
+euro price23.2726amer price35.1258
+BS formula euro price23.2726
+forward price by tree23.2726
+forward price 23.2726
+euro new price23.2726amer new price35.1258
+euro av price23.2726amer av price35.1258
+av forward23.2726
+1.345
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_3$ make clean
+rm *.o output
+(base) zcw@mukoedo1993:~/finance/C++chap8/exercise8_3$ 

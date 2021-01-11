@@ -1,0 +1,21 @@
+For templates argument types are decided at the time of compilation, whereas for virtual functions the type is not determined until runtime. 
+
+Differences:
+1: speed 
+No time is spent on deciding which code to run when the code is actually running. In addition, the fact that the compiler knows which code will 
+be run allows it to make extra optimizations which would be hard if not impossible when the decision is made at run time.
+
+A second consequence is size. As the code is compiled for each template argument used separately, we have multiple copies of very similar code.
+
+A third consequence is that it becomes harder for the user of the code to make choices.
+
+Author's suggestions:
+So when should one use templates and when use virtual functions? My preference is not to use templates unless certain conditions are met. These are that
+the routine should be short, and potentially re-usable in totally unrelated contexts. So for example, I would use templates for a numerical integration routine and 
+a solver. I would also use templates for a container class; in fact I would generally use the templates given in the standard template library. I would not, however, 
+use templates for an option pricing engine since the code would probably be long and is only relevant to a quite specific context. 
+
+The general trend in C++ is towards templates. 
+The principal reason is that they are the way to achieve the same speed as lower-level languages. In general, languages
+exhibit a trade-off between abstraction and efficiency; C++ has always striven to achieve both. Templates are ultimaltely a way of
+achieving abstraction without sacrificing efficiency.

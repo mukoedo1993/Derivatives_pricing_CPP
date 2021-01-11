@@ -1,0 +1,52 @@
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter9/exercise9_3$ make
+g++ -c AntiThetic.cpp
+g++ -c Arrays.cpp
+g++ -c ConvergenceTable.cpp
+g++ -c MCStatistics.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c ParkMiller.cpp 
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c Random2.cpp
+g++ -c Vanilla3.cpp
+g++ -c RandomMain3.cpp
+g++ AntiThetic.o Arrays.o ConvergenceTable.o MCStatistics.o Normals.o Parameters.o ParkMiller.o PayOff3.o PayOffBridge.o Random2.o Vanilla3.o RandomMain3.o -o output
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter9/exercise9_3$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+200
+
+Enter vol
+0.03
+
+r
+0.2
+
+Number of paths
+100000
+
+For the call price the results are 
+1112.34 2 
+654.71 4 
+410.082 8 
+298.628 16 
+247.392 32 
+219.771 64 
+204.319 128 
+201.692 256 
+197.18 512 
+192.908 1024 
+190.301 2048 
+191.715 4096 
+191.731 8192 
+192.124 16384 
+191.645 32768 
+190.893 65536 
+190.871 100000 

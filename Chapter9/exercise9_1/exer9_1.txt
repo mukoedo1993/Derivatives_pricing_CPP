@@ -1,0 +1,122 @@
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter9/exercise9_1$ make
+g++ -c BlackScholesFormulas.cpp
+g++ -c BSCallTwo.cpp
+g++ -c Normals.cpp
+g++ -c SolveMain3.cpp
+g++ BlackScholesFormulas.o BSCallTwo.o Normals.o SolveMain3.o -o output
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter9/exercise9_1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+50
+
+Enter price
+30
+
+r
+0.1
+
+d
+0.01
+
+start guess
+0.3
+
+Tolerance
+0.02
+
+ vol 0.475059 
+price two:29.5299
+1.4
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter9/exercise9_1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+50
+
+Enter price
+30
+
+r
+0.1
+
+d
+0.01
+
+start guess
+0.3
+
+Tolerance
+0.00001
+
+ vol 0.475059 
+price two:29.5299
+1.4
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter9/exercise9_1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+50
+
+Enter price
+30
+
+r
+0.1
+
+d
+0.01
+
+start guess
+0.3
+
+Tolerance
+0.0000000000000001
+
+ vol 0.475059 
+price two:29.5299
+1.3
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter9/exercise9_1$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+50
+
+Enter price
+30
+
+r
+0.1
+
+d
+0.01
+
+start guess
+0.9
+
+Tolerance
+0.004
+
+ vol 0.474221 
+price two:29.5005
+13

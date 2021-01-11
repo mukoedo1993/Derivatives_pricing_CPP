@@ -1,0 +1,35 @@
+(base) zcw@mukoedo1993:~/finance/C++chap9/textbook_part2$ make
+g++ -c BlackScholesFormulas.cpp
+g++ -c BSCallTwo.cpp
+g++ -c Normals.cpp
+g++ -c SolveMain2.cpp
+g++ BlackScholesFormulas.o BSCallTwo.o Normals.o SolveMain2.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap9/textbook_part2$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+50 
+
+Enter price
+30
+
+r
+0.1
+
+d
+0.01
+
+start guess
+0.3
+
+Tolerance
+0.2
+
+ vol 0.475059 
+price two:29.5299
+1.3

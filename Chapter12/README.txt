@@ -8,3 +8,11 @@ You can update your system with unsupported packages from this untrusted PPA by 
 
 sudo add-apt-repository ppa:edd/misc
 sudo apt-get update
+
+
+exercise12_1:
+Install Boost on your computer. See my advanced_CPP repository in the github.
+
+
+exercise12_3:
+Download and build Quantlib!

@@ -3,6 +3,8 @@
 https://book.douban.com/subject/1485468/
 The quantilib library is good.
 
+# Target
+Read and rewrite the code given in the book above.
 
 # GNU make
 https://www.gnu.org/software/make/manual/make.html#toc-Writing-Makefiles

@@ -1,7 +1,6 @@
 # Derivatives_pricing_CPP
 
 https://book.douban.com/subject/1485468/
-The quantilib library is good.
 
 # Target
 Read and rewrite the code given in the book above. And, give the solution of questions given in the textbook as much as possible.

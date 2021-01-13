@@ -30,7 +30,7 @@ unsigned long PathDependentGeometricAsian::CashFlows(const MJArray&
                                             SpotValues,
                                 std::vector<CashFlow>& GeneratedFlows)const {
    
-    double log_sum=1;
+    double log_sum=0;
    for(unsigned long i=0;i<SpotValues.size();++i)
     log_sum+= log(SpotValues[i]);
    

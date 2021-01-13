@@ -13,22 +13,18 @@ PayOffBridge::PayOffBridge(const PayOff& innerPayOff)
   
 PayOffBridge::~PayOffBridge()
 {
-   
+   delete ThePayOffPtr;
+   ThePayOffPtr=nullptr;
 }
 
 PayOffBridge& PayOffBridge::operator=(const PayOffBridge& original)
 {
-    if (this != &original)
+  if (this != &original)
     {
-        if(original.ThePayOffPtr&&ThePayOffPtr)
-     {   
-         *ThePayOffPtr=*(original.ThePayOffPtr);
-     }
-     else
-     {
-         throw std::invalid_argument("You are trying to or/and from assign an unique_ptr which is managing a nullptr");
-     }
+        delete ThePayOffPtr;
+        ThePayOffPtr = original.ThePayOffPtr->clone();
     }
+
     
     return *this;
 }

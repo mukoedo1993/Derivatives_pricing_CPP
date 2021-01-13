@@ -1,0 +1,11 @@
+There are two standard safety guarantees:
+1: The weak guarantee: the object and program are left in a valid stae, and no resources have been leaked.
+2: The strong guarantee: if an exception is thrown during an operation (e.g. a call to a method or a function),
+ then the program is left in the state it was at entry to the operation.
+ 
+ The essential difference here is that with the weak guarantee an object's state can change even though the operation failed, whereas
+ the strong guarantee the class is promising to undo all changes before throwing.
+ 
+ Clearly, the strong guarantee is harder to implement than the weak one.  However, it is important to realize that code that is not written 
+ with safety in mind will statisfy neither. The weak guarnatee is also sometimes called the basic guarantee.
+ 

@@ -1,5 +1,6 @@
 # Derivatives_pricing_CPP
 
+https://www.amazon.com/Patterns-Derivatives-Pricing-Mathematics-Finance/dp/0521721628
 https://book.douban.com/subject/1485468/
 
 # Target

@@ -1,0 +1,39 @@
+ A key part of our factory was the singleton, and a key part of the singletonwas the 
+ fact that it could not be copied. We achieved this by making all the constructors including
+ the copy constructor private. 
+
+ The key observation that makes this technique work is that if a class has a private copy constructor or assignment operator,
+ then any class inherited from it cannot be copied or assigned either, since the inherited class implicitly
+ holds a base class object.
+
+ Here's the important part of the relevant file from Boost.
+
+ "boost/noncopyable.hpp"
+//https://www.boost.org/doc/libs/1_53_0/boost/noncopyable.hpp
+ class noncopyable
+ {
+protected:
+    noncopyable(){}
+    ~noncopyable(){}
+
+private:    // emphasize the following members are private
+    noncopyable(const noncopyable&)=delete
+    const noncopyable& operator= (const noncopyable& ); 
+ }
+
+ The class is very small and has no data members. Its constructor and destructor are protected
+ to ensure that it can only be constructed by an inherited class. The copy constructor and assignment 
+ operator are, of course, private to ensure that even inherited classes cannot make a copy.
+
+ To use this class we simply inherit our new class from it. For example, a typical use would be:
+
+ class MySingleton : private noncopyable
+ {
+    ...
+ };
+
+
+Tips:
+1: Oops... But C++11 gives us a much better way: define it deleted.
+
+2: //http://www.cplusplus.com/forum/general/70648/

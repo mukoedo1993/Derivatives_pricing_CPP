@@ -7,6 +7,9 @@ https://book.douban.com/subject/1485468/
 Read and rewrite the code given in the book above as much as possible in modern C++ style. 
 And, give the solution of questions given in the textbook as much as possible.
 
+# Platform:
+Ubuntu 20.04.1
+
 # References:
 1:Monte Carlo Methods in Financial Engineering, Page 189.(Author: Paul Glasserman)
 

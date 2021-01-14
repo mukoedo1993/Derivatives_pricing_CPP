@@ -1,0 +1,21 @@
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter2$ ./output
+
+EnterExpiry
+12 
+
+Enter strike
+100
+
+Enter spot
+60
+
+Enter vol
+0.3
+
+r
+0.6
+Number of paths
+10000
+the prices are 59.6502 for the call and 0for the put
+1.3
+

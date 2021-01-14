@@ -5,7 +5,7 @@ https://book.douban.com/subject/1485468/
 
 # Target
 Read and rewrite the code given in the book above as much as possible in modern C++ style. 
-And, give the solution of questions given in the textbook as much as possible.
+And, give the solution of questions given in the textbook as many as possible.
 
 # Platform:
 Ubuntu 20.04.1

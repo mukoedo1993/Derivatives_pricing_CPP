@@ -1,0 +1,30 @@
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter1/textbook_case$ make
+g++ -c Random1.cpp
+g++    -c -o SimpleMCMain1.o SimpleMCMain1.cpp
+g++ Random1.o SimpleMCMain1.o -o output
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter1/textbook_case$ ./output
+
+Enter expiry: 
+12
+
+Enter strike: 
+100
+
+Enter spot: 
+50
+
+Enter vol
+0.03
+
+r
+0.2
+
+Number of paths
+1000
+the price is: 40.8275
+1.3
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter1/textbook_case$ make clean
+rm *.o output
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter1/textbook_case$ 
+
+

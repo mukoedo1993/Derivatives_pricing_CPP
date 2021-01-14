@@ -23,6 +23,8 @@ Ubuntu 20.04.1
 4: Options, Futures, and other derivatives(9th ed.)(authoer: John C.Hull)
 Page 467
 
-5:... See README.txt at each directory. Bascially, you could run 
+5:  https://github.com/cheerzzh/CPP-design-pattern-derivatives-pricing 
+
+6:... See README.txt at each directory. Bascially, you could run 
 make on ubuntu to run files in each directory when a Makefile is given. However, sometimes, you need to type files manually if 
 you could not find a Makefile here.

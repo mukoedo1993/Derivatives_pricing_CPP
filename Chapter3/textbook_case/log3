@@ -1,0 +1,34 @@
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter3/case3$ make
+g++ -c Random1.cpp
+g++    -c -o SimpleMCMain5.o SimpleMCMain5.cpp
+g++ -c SimpleMC2.cpp 
+g++ -c PayOff2.cpp
+g++ -c DoubleDigital.cpp
+g++ Random1.o SimpleMCMain5.o SimpleMC2.o PayOff2.o DoubleDigital.o -o output
+(base) zcw@mukoedo1993:~/finance_local_clone/Derivatives_pricing_CPP/Chapter3/case3$ ./output
+
+Enter expiry
+12
+
+Enter low barrier
+23
+
+Enter up barrier
+29
+
+Enter spot
+25
+
+Enter vol
+0.01
+
+r
+0.001
+
+number of paths
+10000
+
+the price is 
+0.984712
+1.3
+

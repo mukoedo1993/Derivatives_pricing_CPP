@@ -34,6 +34,6 @@ private:    // emphasize the following members are private
 
 
 Tips:
-1: Oops... But C++11 gives us a much better way: define it deleted.
+1: Oops... But C++11 gives us a much better way: define it as deleted.
 
 2: //http://www.cplusplus.com/forum/general/70648/

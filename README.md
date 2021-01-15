@@ -9,6 +9,8 @@ And, give the solution of questions given in the textbook as many as possible.
 
 # Platform:
 Ubuntu 20.04.1
+g++ 9.3.0
+
 
 # References:
 1:Monte Carlo Methods in Financial Engineering, Page 189.(Author: Paul Glasserman)

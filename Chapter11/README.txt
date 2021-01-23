@@ -19,3 +19,4 @@ This allows us to easily change how this particular part of the algorithm behave
 
 5:Template
 6: Iterator
+......

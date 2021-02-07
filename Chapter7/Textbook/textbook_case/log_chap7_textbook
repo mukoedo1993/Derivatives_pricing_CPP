@@ -1,0 +1,55 @@
+(base) zcw@mukoedo1993:~/finance/C++chap7/textbook_chap7$ make
+g++ -c AntiThetic.cpp
+g++ -c Arrays.cpp
+g++ -c ConvergenceTable.cpp
+g++ -c ExoticBSEngine.cpp
+g++    -c -o ExoticEngine.o ExoticEngine.cpp
+g++ -c MCStatistics.cpp
+g++ -c Normals.cpp
+g++ -c Parameters.cpp
+g++ -c ParkMiller.cpp 
+g++ -c PathDependent.cpp
+g++ -c PathDependentAsian.cpp
+g++ -c PayOff3.cpp
+g++ -c PayOffBridge.cpp
+g++ -c Random2.cpp
+g++ -c EquityFXMain.cpp
+g++ AntiThetic.o Arrays.o ConvergenceTable.o ExoticBSEngine.o ExoticEngine.o MCStatistics.o Normals.o Parameters.o ParkMiller.o PathDependent.o PathDependentAsian.o PayOff3.o PayOffBridge.o Random2.o EquityFXMain.o -o output
+(base) zcw@mukoedo1993:~/finance/C++chap7/textbook_chap7$ ./output
+
+Enter expiry
+12
+
+Strike
+100
+
+Enter spot
+200
+
+ENter vol
+0.03
+
+r
+0.01
+
+d
+0.005
+Number of dates
+1000
+
+Number of paths
+1000
+
+For the Asian call price the results are
+93.9207 2 
+93.8626 4 
+94.0739 8 
+94.093 16 
+94.1649 32 
+94.1396 64 
+94.1544 128 
+94.1086 256 
+94.1058 512 
+94.1037 1000 
+1.2
+

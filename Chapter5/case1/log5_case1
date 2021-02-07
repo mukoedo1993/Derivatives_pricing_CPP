@@ -1,4 +1,3 @@
-The record on the terminal:
 (base) zcw@mukoedo1993:~/finance/C++chap5/case1$ make
 g++ -c MCstatistics.cpp
 g++ -c Parameters.cpp
@@ -18,20 +17,20 @@ Strike
 100
 
 Enter spot
-400
+500
 
 Enter vol
 0.13
 
 r
-0.14
+0.12
 
 Number of paths
-100000000
+10000000
 
 For the call price the results are 
-381.353 
-0.13
+476.286 
+1.2
 (base) zcw@mukoedo1993:~/finance/C++chap5/case1$ make clean
 rm *.o output
 (base) zcw@mukoedo1993:~/finance/C++chap5/case1$ 

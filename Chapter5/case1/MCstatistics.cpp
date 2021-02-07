@@ -15,12 +15,12 @@ void StatisticsMean::DumpOneResult(double result)
 
 vector<vector<double>>
                 StatisticsMean::GetResultsSoFar()const {
-          return  vector<vector<double>>(1,{static_cast<double>(RunningSum)/
-          static_cast<double>(PathsDone)});
+          return {{static_cast<double>(RunningSum)/
+          static_cast<double>(PathsDone)}};
 }
 
-std::shared_ptr<StatisticsMC> 
+std::unique_ptr<StatisticsMC> 
    StatisticsMean::clone()const
    {
-       return std::make_shared<StatisticsMean>(*this);
+       return std::make_unique<StatisticsMean>(*this);
    }

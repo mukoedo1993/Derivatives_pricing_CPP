@@ -12,28 +12,8 @@ double Bisection(double Target,
 double Low,
 double High,
 double Tolerance,
-std::function<double(double)> TheFunction)
-{
-    double x=0.5*(Low+High);
-    double y = TheFunction(x);
+const std::function<double(double)>& TheFunction);
 
-
-    do{
-        if(y<Target)
-            Low = x;
-        if(y>Target)
-            High = x;
-        
-        x = 0.5*(Low+High);
-
-        y = TheFunction(x);
-    }
-    while
-    ((abs(y-Target)>Tolerance));
-
-    return x;
-
-}
 #endif
 /*
 We only present a header file, since for template code we cannot precompile in a source file

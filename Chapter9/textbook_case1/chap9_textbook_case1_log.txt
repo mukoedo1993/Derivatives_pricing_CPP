@@ -1,0 +1,31 @@
+(base) zcw@mukoedo1993:~/financial_C++_cloning/Derivatives_pricing_CPP/Chapter9/textbook_case1_ver3$ ./output
+
+Enter expiry
+12
+
+Strike
+200
+
+Enter spot
+100
+
+Enter price
+0.03
+
+r
+0.02
+
+d
+0.01
+
+lower guess
+0
+
+higher guess
+4
+
+Tolerance
+0.5
+
+ vol0.0625 pricetwo 0.0320124
+1.3

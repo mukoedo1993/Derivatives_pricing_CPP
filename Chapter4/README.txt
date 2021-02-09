@@ -5,3 +5,6 @@ by adding new files.)
 
 
 See Subdirectories for more details.
+Case1: https://github.com/mukoedo1993/Derivatives_pricing_CPP/tree/main/Chapter4/case1
+Case2:https://github.com/mukoedo1993/Derivatives_pricing_CPP/tree/main/Chapter4/case2
+Case3: https://github.com/mukoedo1993/Derivatives_pricing_CPP/tree/main/Chapter4/case3

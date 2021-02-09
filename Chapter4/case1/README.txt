@@ -1,5 +1,4 @@
-The main change is that now we first pass a PayOff object and the expiry time into a VanillaOption object and that is
-then passed into the Monte Carlo.
+Case1 gives us a way to price a double-digital option.
 
 Weakness: The VanillaOption class stores a reference to a PayOff object which was defined outside the class. This means that if we
 change that object then the pay-off of the vanilla option will change. The vanilla option will not exist as independent object in its 

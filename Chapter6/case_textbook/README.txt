@@ -1,12 +1,3 @@
-See ver1 and ver2 for more details.
-
-ver3_: 
-
-I updated some files. I optimized these files within my capability. 
-
-PayOffBridge's assignment should keep alarm at any possible nullptr managed by unique_ptrs.
-
-Because, according to the implementation of the class PayOffBridge, we shouldn't face it. If it happens, there is absolutely an error.
-
-The default constructor just doesn't exist, so every object of this class should have a unique_ptr which is NOT a nullptr.
-So, I added a throw statement if terrible things like that happen.
+We implemented our pesudo-random number generator and add a decorated feature
+to print out the table of call prices against times of paths.
+A table of call price is printed in this project.

@@ -1,1 +1,1 @@
-I, basically, reproduced the result from the textbook.
+This project prices Asian call's price and print a table of its pricing against No. of paths.

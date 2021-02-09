@@ -10,6 +10,8 @@ And, give the solution of questions given in the textbook as many as possible.
 # Platform:
 Ubuntu 20.04.1
 g++ 9.3.0
+If there is a Makefile in a certain directory, use it.
+Otherwise, I will give a direction on how to organize and compile the code in the README.txt file in its directory.
 
 
 # References:

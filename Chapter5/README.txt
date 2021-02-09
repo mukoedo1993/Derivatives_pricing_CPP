@@ -1,3 +1,6 @@
+See the textbook_case directory for more details.
+
+
 Our Monte Carlo routine is now easily extensible to handle any pay-off and time-dependent parameters.
 However, there are plenty of valid criticisms that could still be made. One thing that is definitely lacking
 is the absence of any indication of the simulation's convergence. We could make the routine return standard error,

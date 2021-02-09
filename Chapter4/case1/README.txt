@@ -1,3 +1,7 @@
+Run
+g++ DoubleDigital.cpp DoubleDigital.h PayOff2.cpp PayOff2.h Random1.cpp Random1.h SimpleMC3.cpp SimpleMC3.h Vanilla1.cpp Vanilla1.h VanillaMain1.cpp
+on the Ubuntu terminal on this directory.
+
 Case1 gives us a way to price a double-digital option.
 
 Weakness: The VanillaOption class stores a reference to a PayOff object which was defined outside the class. This means that if we

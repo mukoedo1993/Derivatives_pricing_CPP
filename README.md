@@ -1,7 +1,7 @@
 # Derivatives_pricing_CPP
 
-https://www.amazon.com/Patterns-Derivatives-Pricing-Mathematics-Finance/dp/0521721628
-https://book.douban.com/subject/1485468/
+[Amazon](https://www.amazon.com/Patterns-Derivatives-Pricing-Mathematics-Finance/dp/0521721628)
+[Douban, Simplified Chinese](https://book.douban.com/subject/1485468/)
 
 # Target
 Read and rewrite the code given in the book above as much as possible in modern C++ style. 
